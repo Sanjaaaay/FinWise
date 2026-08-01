@@ -10,6 +10,47 @@
 		E6B7672636BA9271808A507E /* FinWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6499ADCEA72D4A678925F9 /* FinWiseApp.swift */; };
 		086007C077EAC165A48CDB07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452CF0132DC8A3BB599AB15F /* ContentView.swift */; };
 		8A503D12C9E78E894093F4B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2C94548719B0373C05FB19 /* Assets.xcassets */; };
+		2F69423E13A4E727D9721839 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD10066FD757665E7DE26EF /* AppState.swift */; };
+		CA8CDB8C5882FE5DC8A2D458 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43455D2C0A7B3555058CAD54 /* Theme.swift */; };
+		29E11F01882B57B9C47BDF12 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663340A6DC750194035FD44C /* LoginView.swift */; };
+		223126B1C17DC85B59D5C6D1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF80FD7D5C5B2E1042F7CDBE /* Models.swift */; };
+		7A6FE4AF262E40E9FAE21195 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B5CC336574948017B1A13F /* HomeView.swift */; };
+		265092F4EF72D002CBDEF8B2 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A2BBF2F8F8D9A8827A0C9 /* AddExpenseView.swift */; };
+		7A36F90A13A0C9A2505B9A27 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D718E26A77E47566C2443 /* Components.swift */; };
+		1CED16AE4CF2246B0225BE4F /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FECAA47C9B02598C3CAD0C8 /* CategoriesView.swift */; };
+		6D7EB4C11F9211A82BF74C3C /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2AB7E2329CBB09517FC818 /* AnalysisView.swift */; };
+		82ABED11B8CEE1196278D537 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DBA45742A00B594A9B1DA4 /* ProfileView.swift */; };
+		AE2C06BD6DCA91E9F2C2829D /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DADF525368C79387B08DBD /* TransactionsView.swift */; };
+		C2C1C4A5C2FA4A8756E41948 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B53F52DEBE7D32B51B40C9 /* CategoryDetailView.swift */; };
+		92A97431E5A7A35CA8C8876D /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054AE15678789D9DF899B156 /* NotificationsView.swift */; };
+		EFFA962D1710D448B0A7A1D8 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A275FCB3A87459DFD6B8E2 /* EditProfileView.swift */; };
+		A1E5D1D585B54A247E8A2BC5 /* SecurityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206A505D22F6B13A6B4DAD64 /* SecurityView.swift */; };
+		7DAD188747A0F8157ACF846D /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF6E4DA8A619FC28FB31D9 /* HelpView.swift */; };
+		7FAF8DE56C55241EA698BB86 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CB1744578C36C2863CC2C4 /* LaunchView.swift */; };
+		091AA78969D1B0188DB52C64 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B813167FA9199EDB96B27F /* OnboardingView.swift */; };
+		9C61B6932B40BB72FC03F2ED /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB882AC89E473D653E15244 /* CreateAccountView.swift */; };
+		8EB78076347267DE69D084BE /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C91F3505D612B2156A43E /* ForgotPasswordView.swift */; };
+		96919DDE699A27E3610B4A0B /* SecurityPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67149C0B0F1EFF7099CBBB5 /* SecurityPinView.swift */; };
+		979DD216DF2E2D88179C1978 /* NewPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A968525237C8A98D12DC495 /* NewPasswordView.swift */; };
+		8D137F6466F7F43F2E55A500 /* SecurityFingerprintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D263F8E34DBCDB4056AAD24 /* SecurityFingerprintView.swift */; };
+		EC03EAF6B03DF3D60886B3EF /* AccountBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62030BC0C8DDE37B1DE962D /* AccountBalanceView.swift */; };
+		7FBA002F17ADD6C9ECAF69A3 /* QuicklyAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E64A98FF8197FA8D3A98975 /* QuicklyAnalysisView.swift */; };
+		17D85C766B35B80C962EF6AF /* SearchTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18963397F8BC0722EE2C4D93 /* SearchTransactionsView.swift */; };
+		EB9F5A0225469B9BF86515B3 /* CalendarTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A3BA6F41958A784FCAEF87 /* CalendarTransactionsView.swift */; };
+		00E8FD6436D43A18C1AC81E0 /* SavingsGoalsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6366357E8119FC5C5DB15878 /* SavingsGoalsGridView.swift */; };
+		4F8AC564073686AF422638AD /* ChangePinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FD9C57C8003C9FC11D383 /* ChangePinView.swift */; };
+		859C09EEA72BBFA66BA5E435 /* FingerprintListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5081ACAFFC37F4F7958C6B00 /* FingerprintListView.swift */; };
+		74A90BE4C2944FCB6DB77206 /* FingerprintDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF6C33B3EEA0B48A23BB23E /* FingerprintDetailView.swift */; };
+		93DBD6D0C0734E7F5A82A185 /* AddFingerprintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0756B83120AC36B003CC3F /* AddFingerprintView.swift */; };
+		65BA729B453556F4A61668FC /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCF2D620834C22158D2737 /* TermsAndConditionsView.swift */; };
+		8351B3D8F99A8230A5C04BA3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607915ABD0B43AAB5E9CADF9 /* SettingsView.swift */; };
+		5D49361A570A28F2D8D8EB83 /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF17370EC651C73DE3680A4A /* NotificationSettingsView.swift */; };
+		BE697252E202FBE1EA4FF6D4 /* PasswordSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3AE1CE07298F1A70D71AEC /* PasswordSettingsView.swift */; };
+		7811DA7F7708EB3E5B45E80F /* DeleteAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C981379E9EB1AB7C6189D /* DeleteAccountView.swift */; };
+		A92370E941ED3342A069D4F0 /* OnlineSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB5264F8FC3E17AA84AA96 /* OnlineSupportView.swift */; };
+		CF8E0A943A0E034FEC4F9AEF /* SupportChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04B074075E601E0FF6E6499 /* SupportChatView.swift */; };
+		640783096CB76F3FB5BD0250 /* NewEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48965B2F493A3654CD0810A3 /* NewEntryView.swift */; };
+		6EF53AF4F972B2B3F22D15C4 /* SavingsGoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17A710EF0C239EEAF47D6D7 /* SavingsGoalDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +58,47 @@
 		452CF0132DC8A3BB599AB15F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E2C94548719B0373C05FB19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		569896337B0BFE05DF504940 /* FinWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD10066FD757665E7DE26EF /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		43455D2C0A7B3555058CAD54 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		663340A6DC750194035FD44C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CF80FD7D5C5B2E1042F7CDBE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		06B5CC336574948017B1A13F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BC6A2BBF2F8F8D9A8827A0C9 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		1A6D718E26A77E47566C2443 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		0FECAA47C9B02598C3CAD0C8 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		5D2AB7E2329CBB09517FC818 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		86DBA45742A00B594A9B1DA4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		40DADF525368C79387B08DBD /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		F2B53F52DEBE7D32B51B40C9 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
+		054AE15678789D9DF899B156 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		12A275FCB3A87459DFD6B8E2 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		206A505D22F6B13A6B4DAD64 /* SecurityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityView.swift; sourceTree = "<group>"; };
+		29EF6E4DA8A619FC28FB31D9 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		97CB1744578C36C2863CC2C4 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		41B813167FA9199EDB96B27F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0DB882AC89E473D653E15244 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		EF4C91F3505D612B2156A43E /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		D67149C0B0F1EFF7099CBBB5 /* SecurityPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityPinView.swift; sourceTree = "<group>"; };
+		9A968525237C8A98D12DC495 /* NewPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordView.swift; sourceTree = "<group>"; };
+		0D263F8E34DBCDB4056AAD24 /* SecurityFingerprintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityFingerprintView.swift; sourceTree = "<group>"; };
+		C62030BC0C8DDE37B1DE962D /* AccountBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceView.swift; sourceTree = "<group>"; };
+		0E64A98FF8197FA8D3A98975 /* QuicklyAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuicklyAnalysisView.swift; sourceTree = "<group>"; };
+		18963397F8BC0722EE2C4D93 /* SearchTransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTransactionsView.swift; sourceTree = "<group>"; };
+		75A3BA6F41958A784FCAEF87 /* CalendarTransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTransactionsView.swift; sourceTree = "<group>"; };
+		6366357E8119FC5C5DB15878 /* SavingsGoalsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsGoalsGridView.swift; sourceTree = "<group>"; };
+		BC2FD9C57C8003C9FC11D383 /* ChangePinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePinView.swift; sourceTree = "<group>"; };
+		5081ACAFFC37F4F7958C6B00 /* FingerprintListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerprintListView.swift; sourceTree = "<group>"; };
+		BBF6C33B3EEA0B48A23BB23E /* FingerprintDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerprintDetailView.swift; sourceTree = "<group>"; };
+		DA0756B83120AC36B003CC3F /* AddFingerprintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFingerprintView.swift; sourceTree = "<group>"; };
+		4ACCF2D620834C22158D2737 /* TermsAndConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsView.swift; sourceTree = "<group>"; };
+		607915ABD0B43AAB5E9CADF9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CF17370EC651C73DE3680A4A /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
+		2D3AE1CE07298F1A70D71AEC /* PasswordSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSettingsView.swift; sourceTree = "<group>"; };
+		765C981379E9EB1AB7C6189D /* DeleteAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountView.swift; sourceTree = "<group>"; };
+		BFCB5264F8FC3E17AA84AA96 /* OnlineSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineSupportView.swift; sourceTree = "<group>"; };
+		B04B074075E601E0FF6E6499 /* SupportChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportChatView.swift; sourceTree = "<group>"; };
+		48965B2F493A3654CD0810A3 /* NewEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryView.swift; sourceTree = "<group>"; };
+		C17A710EF0C239EEAF47D6D7 /* SavingsGoalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsGoalDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,9 +125,58 @@
 			children = (
 				2A6499ADCEA72D4A678925F9 /* FinWiseApp.swift */,
 				452CF0132DC8A3BB599AB15F /* ContentView.swift */,
+				6BD10066FD757665E7DE26EF /* AppState.swift */,
+				43455D2C0A7B3555058CAD54 /* Theme.swift */,
+				CF80FD7D5C5B2E1042F7CDBE /* Models.swift */,
+				1A6D718E26A77E47566C2443 /* Components.swift */,
+				3A29E73086305B95B6BAB1A6 /* Screens */,
 				1E2C94548719B0373C05FB19 /* Assets.xcassets */,
 			);
 			path = FinWise;
+			sourceTree = "<group>";
+		};
+		3A29E73086305B95B6BAB1A6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				663340A6DC750194035FD44C /* LoginView.swift */,
+				06B5CC336574948017B1A13F /* HomeView.swift */,
+				BC6A2BBF2F8F8D9A8827A0C9 /* AddExpenseView.swift */,
+				0FECAA47C9B02598C3CAD0C8 /* CategoriesView.swift */,
+				5D2AB7E2329CBB09517FC818 /* AnalysisView.swift */,
+				86DBA45742A00B594A9B1DA4 /* ProfileView.swift */,
+				40DADF525368C79387B08DBD /* TransactionsView.swift */,
+				F2B53F52DEBE7D32B51B40C9 /* CategoryDetailView.swift */,
+				054AE15678789D9DF899B156 /* NotificationsView.swift */,
+				12A275FCB3A87459DFD6B8E2 /* EditProfileView.swift */,
+				206A505D22F6B13A6B4DAD64 /* SecurityView.swift */,
+				29EF6E4DA8A619FC28FB31D9 /* HelpView.swift */,
+				97CB1744578C36C2863CC2C4 /* LaunchView.swift */,
+				41B813167FA9199EDB96B27F /* OnboardingView.swift */,
+				0DB882AC89E473D653E15244 /* CreateAccountView.swift */,
+				EF4C91F3505D612B2156A43E /* ForgotPasswordView.swift */,
+				D67149C0B0F1EFF7099CBBB5 /* SecurityPinView.swift */,
+				9A968525237C8A98D12DC495 /* NewPasswordView.swift */,
+				0D263F8E34DBCDB4056AAD24 /* SecurityFingerprintView.swift */,
+				C62030BC0C8DDE37B1DE962D /* AccountBalanceView.swift */,
+				0E64A98FF8197FA8D3A98975 /* QuicklyAnalysisView.swift */,
+				18963397F8BC0722EE2C4D93 /* SearchTransactionsView.swift */,
+				75A3BA6F41958A784FCAEF87 /* CalendarTransactionsView.swift */,
+				6366357E8119FC5C5DB15878 /* SavingsGoalsGridView.swift */,
+				BC2FD9C57C8003C9FC11D383 /* ChangePinView.swift */,
+				5081ACAFFC37F4F7958C6B00 /* FingerprintListView.swift */,
+				BBF6C33B3EEA0B48A23BB23E /* FingerprintDetailView.swift */,
+				DA0756B83120AC36B003CC3F /* AddFingerprintView.swift */,
+				4ACCF2D620834C22158D2737 /* TermsAndConditionsView.swift */,
+				607915ABD0B43AAB5E9CADF9 /* SettingsView.swift */,
+				CF17370EC651C73DE3680A4A /* NotificationSettingsView.swift */,
+				2D3AE1CE07298F1A70D71AEC /* PasswordSettingsView.swift */,
+				765C981379E9EB1AB7C6189D /* DeleteAccountView.swift */,
+				BFCB5264F8FC3E17AA84AA96 /* OnlineSupportView.swift */,
+				B04B074075E601E0FF6E6499 /* SupportChatView.swift */,
+				48965B2F493A3654CD0810A3 /* NewEntryView.swift */,
+				C17A710EF0C239EEAF47D6D7 /* SavingsGoalDetailView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		45C9747897EDAC2E8A4333C5 /* Products */ = {
@@ -127,6 +258,47 @@
 			files = (
 				E6B7672636BA9271808A507E /* FinWiseApp.swift in Sources */,
 				086007C077EAC165A48CDB07 /* ContentView.swift in Sources */,
+				2F69423E13A4E727D9721839 /* AppState.swift in Sources */,
+				CA8CDB8C5882FE5DC8A2D458 /* Theme.swift in Sources */,
+				29E11F01882B57B9C47BDF12 /* LoginView.swift in Sources */,
+				223126B1C17DC85B59D5C6D1 /* Models.swift in Sources */,
+				7A6FE4AF262E40E9FAE21195 /* HomeView.swift in Sources */,
+				265092F4EF72D002CBDEF8B2 /* AddExpenseView.swift in Sources */,
+				7A36F90A13A0C9A2505B9A27 /* Components.swift in Sources */,
+				1CED16AE4CF2246B0225BE4F /* CategoriesView.swift in Sources */,
+				6D7EB4C11F9211A82BF74C3C /* AnalysisView.swift in Sources */,
+				82ABED11B8CEE1196278D537 /* ProfileView.swift in Sources */,
+				AE2C06BD6DCA91E9F2C2829D /* TransactionsView.swift in Sources */,
+				C2C1C4A5C2FA4A8756E41948 /* CategoryDetailView.swift in Sources */,
+				92A97431E5A7A35CA8C8876D /* NotificationsView.swift in Sources */,
+				EFFA962D1710D448B0A7A1D8 /* EditProfileView.swift in Sources */,
+				A1E5D1D585B54A247E8A2BC5 /* SecurityView.swift in Sources */,
+				7DAD188747A0F8157ACF846D /* HelpView.swift in Sources */,
+				7FAF8DE56C55241EA698BB86 /* LaunchView.swift in Sources */,
+				091AA78969D1B0188DB52C64 /* OnboardingView.swift in Sources */,
+				9C61B6932B40BB72FC03F2ED /* CreateAccountView.swift in Sources */,
+				8EB78076347267DE69D084BE /* ForgotPasswordView.swift in Sources */,
+				96919DDE699A27E3610B4A0B /* SecurityPinView.swift in Sources */,
+				979DD216DF2E2D88179C1978 /* NewPasswordView.swift in Sources */,
+				8D137F6466F7F43F2E55A500 /* SecurityFingerprintView.swift in Sources */,
+				EC03EAF6B03DF3D60886B3EF /* AccountBalanceView.swift in Sources */,
+				7FBA002F17ADD6C9ECAF69A3 /* QuicklyAnalysisView.swift in Sources */,
+				17D85C766B35B80C962EF6AF /* SearchTransactionsView.swift in Sources */,
+				EB9F5A0225469B9BF86515B3 /* CalendarTransactionsView.swift in Sources */,
+				00E8FD6436D43A18C1AC81E0 /* SavingsGoalsGridView.swift in Sources */,
+				4F8AC564073686AF422638AD /* ChangePinView.swift in Sources */,
+				859C09EEA72BBFA66BA5E435 /* FingerprintListView.swift in Sources */,
+				74A90BE4C2944FCB6DB77206 /* FingerprintDetailView.swift in Sources */,
+				93DBD6D0C0734E7F5A82A185 /* AddFingerprintView.swift in Sources */,
+				65BA729B453556F4A61668FC /* TermsAndConditionsView.swift in Sources */,
+				8351B3D8F99A8230A5C04BA3 /* SettingsView.swift in Sources */,
+				5D49361A570A28F2D8D8EB83 /* NotificationSettingsView.swift in Sources */,
+				BE697252E202FBE1EA4FF6D4 /* PasswordSettingsView.swift in Sources */,
+				7811DA7F7708EB3E5B45E80F /* DeleteAccountView.swift in Sources */,
+				A92370E941ED3342A069D4F0 /* OnlineSupportView.swift in Sources */,
+				CF8E0A943A0E034FEC4F9AEF /* SupportChatView.swift in Sources */,
+				640783096CB76F3FB5BD0250 /* NewEntryView.swift in Sources */,
+				6EF53AF4F972B2B3F22D15C4 /* SavingsGoalDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
